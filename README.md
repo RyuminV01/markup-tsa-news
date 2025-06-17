@@ -17,8 +17,8 @@
 
 Each sample includes:
 - `sentence` — текст с контекстом
-- `entity` — сущность (например, "музыкантов")
-- `entity_tag` — тип сущности (например, PROFESSION, PERSON, NATIONALITY)
+- `entity` — сущность (например, "спортсмена")
+- `entity_tag` — тип сущности (PERSON, ORGANIZATION, PROFESSION, COUNTRY, NATIONALITY)
 - `entity_pos_start_rel` — начальная позиция сущности в строке
 - `entity_pos_end_rel` — конечная позиция сущности
 - `label` — предсказанный сентимент (1 — положительно, 0 — нейтрально, -1 — отрицательно)
